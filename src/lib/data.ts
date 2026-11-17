@@ -8,8 +8,8 @@ export type Project = {
 
 export const projects: Project[] = [
 	{
-		title: 'Sistem Absensi Kelas',
-		description: 'Aplikasi pencatatan kehadiran siswa dengan rekap otomatis per bulan.',
+		title: 'Sistem Pelanggaran Murid',
+		description: 'Aplikasi pencatatan pelanggaran siswa di sekolah.',
 		stack: 'SvelteKit',
 		year: 2026,
 		href: 'https://github.com/nama-kamu/absensi'

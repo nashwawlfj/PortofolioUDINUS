@@ -16,7 +16,7 @@
 		<div
 			class="mx-auto flex h-[60px] max-w-[1440px] items-center justify-between px-6 lg:h-[72px] lg:px-24"
 		>
-			<a href="/" class="text-[15px] font-semibold lg:text-base">nama.kamu</a>
+			<a href="/" class="text-[15px] font-semibold lg:text-base">nashwa.aul</a>
 
 			<div class="flex items-center gap-2 lg:gap-8">
 				<nav class="hidden items-center gap-7 lg:flex">
@@ -83,38 +83,39 @@
 	</header>
 
 	<!-- hero -->
-	<section class="mx-auto max-w-[1440px] px-6 pt-16 pb-14 lg:px-24 lg:pt-[120px]">
-		<h1
-			class="text-[62px] leading-[0.88] font-medium tracking-[-1.6px] lg:text-[232px] lg:tracking-[-9px]"
-		>
-			Nama Kamu
-		</h1>
+	<section class="mx-auto max-w-[1440px] px-6 pt-20 pb-20 lg:px-24 lg:pt-32 lg:pb-28">
+    <div class="mb-8 flex items-center gap-3">
+        <span class="h-2.5 w-2.5 rounded-full bg-purple-500"></span>
+        <p class="font-mono text-xs tracking-widest text-muted">
+            PORTOFOLIO PRIBADI — 2026
+        </p>
+    </div>
 
-		<div class="mt-7 flex flex-col gap-6">
-			<p class="max-w-[560px] text-[17px] leading-[1.6] text-muted lg:text-xl">
-				Siswa SMK jurusan RPL. Membangun antarmuka web yang cepat, rapi, dan mudah dipakai.
-			</p>
+    <h1 class="text-[58px] leading-[0.95] font-semibold tracking-[-3px] lg:text-[150px] lg:tracking-[-8px]">
+        Nashwa
+        <span class="block text-purple-500">Aulia</span>
+    </h1>
 
-			<div class="flex items-center gap-3">
-				<a
-					href="#proyek"
-					class="flex h-12 items-center bg-primary px-6 text-[15px] font-medium text-on-primary"
-				>
-					Lihat proyek
-				</a>
-				<a
-					href="#kontak"
-					class="flex h-12 items-center border border-line px-6 text-[15px] text-ink"
-				>
-					Hubungi saya
-				</a>
-			</div>
+    <div class="mt-12 flex flex-col justify-between gap-8 lg:flex-row lg:items-end">
+        <p class="max-w-[550px] text-lg leading-relaxed text-muted lg:text-xl">
+            Halo! Saya Nashwa Aulia, siswi SMK jurusan pengembangan Perangkat Lunak dan Gim.
+            Saya tertarik dengan dunia teknologi, desain, dan pengembangan website
+            yang kreatif, modern, serta mudah digunakan.
+        </p>
 
-			<p class="font-mono text-[11px] tracking-[1.1px] text-muted">
-				TERSEDIA UNTUK PROYEK BARU — 2026
-			</p>
-		</div>
-	</section>
+        <div class="flex flex-wrap gap-3">
+            <a href="#proyek"
+                class="rounded-full bg-purple-600 px-7 py-4 text-sm font-medium text-white transition hover:bg-purple-700">
+                Lihat proyek ↗
+            </a>
+
+            <a href="#kontak"
+                class="rounded-full border border-line px-7 py-4 text-sm transition hover:bg-surface">
+                Hubungi saya
+            </a>
+        </div>
+    </div>
+</section>
 
 	<!-- band -->
 	<div class="border-t border-line">
@@ -148,7 +149,7 @@
 
 			<div class="mt-7 flex flex-col items-start gap-8 lg:mt-10 lg:flex-row lg:gap-24">
 				<img
-					src={theme === 'dark' ? '/images/portrait-dark.png' : '/images/portrait-light.png'}
+					src={theme === 'dark' ? '/images/images.png' : '/images/images-light.png'}
 					alt="Foto profil"
 					class="h-[428px] w-full object-cover lg:h-[525px] lg:w-[420px]"
 				/>
@@ -326,30 +327,29 @@
 
 	<!-- footer -->
 	<footer class="border-t border-line">
-		<div class="mx-auto flex max-w-[1440px] flex-col gap-10 px-6 py-14 lg:px-24">
-			<p
-				class="max-w-[640px] text-[34px] leading-[1.05] font-medium tracking-[-0.6px] lg:text-[48px] lg:tracking-[-1.2px]"
-			>
-				Mari membangun sesuatu.
-			</p>
+    <div class="mx-auto max-w-[1440px] px-6 py-16 lg:px-24 lg:py-24">
+        <p class="font-mono text-xs tracking-widest text-purple-500">
+            LET'S CONNECT
+        </p>
 
-			<div
-				class="flex flex-col items-start gap-4 lg:flex-row lg:items-center lg:justify-between lg:gap-6"
-			>
-				<a href="mailto:kamu@email.com" class="font-mono text-xs tracking-[1.1px] text-primary">
-					kamu@email.com
-				</a>
-				<div class="flex items-center gap-6">
-					<a href="#proyek" class="font-mono text-[11px] tracking-[1.1px] text-muted">PROYEK</a>
-					<a
-						href="https://github.com/nama-kamu"
-						class="font-mono text-[11px] tracking-[1.1px] text-muted">GITHUB</a
-					>
-					<a href="mailto:kamu@email.com" class="font-mono text-[11px] tracking-[1.1px] text-muted">
-						EMAIL
-					</a>
-				</div>
-			</div>
-		</div>
-	</footer>
+        <h2 class="mt-6 max-w-3xl text-5xl leading-tight font-semibold tracking-tight lg:text-7xl">
+            Mari membuat sesuatu yang luar biasa.
+        </h2>
+
+        <a href="mailto:kamu@email.com"
+            class="mt-9 inline-flex rounded-full bg-purple-600 px-8 py-4 text-sm font-medium text-white transition hover:bg-purple-700">
+            Hubungi Nashwa ↗
+        </a>
+
+        <div class="mt-20 flex flex-col justify-between gap-5 border-t border-line pt-7 lg:flex-row">
+            <p class="text-sm text-muted">
+                © 2026 Nashwa Aulia. All rights reserved.
+            </p>
+
+            <p class="font-mono text-xs tracking-widest text-muted">
+                DESIGNED WITH ♡
+            </p>
+        </div>
+    </div>
+</footer>
 </div>
